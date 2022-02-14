@@ -1,0 +1,78 @@
+#titulo-app-gatos{
+  font-size: 50px;
+  color:green;
+  font-family: 'Festive', cursive;
+}
+
+h3{
+  font-size: 50px;
+  font-family: Verdana;
+}
+.bordes-redondeados{
+  border-radius: 50px;
+ 
+}
+.imagen-de-gatos{
+  width: 200px;
+  border-width: 5px;
+  border-color: blue;
+  border-style: solid dashed dotted double;
+}
+
+h3{
+  font-size: 15px;
+}
+p{
+  color: blue;
+  font-size:15px;
+
+}
+.lista-de-gatos{
+  color: darkgray;
+}
+
+.contenedor-listas{
+  background-color: lightgray;
+}
+
+input[type="checkbox"]{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:blue;
+}
+
+.div-testing-spaces{
+  background-color: grey;
+  padding: 5px;
+  font-size: 20px;
+  background-color:yellow;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.rectangulo{
+  padding:5px;
+}
+
+.px{
+  width:200px;
+  background-color:aqua;
+}
+.vw{
+  width:20vw;
+  background-color:darkmagenta;
+}
+.em{
+  width:20em;
+  background-color:royalblue ;
+}
+.img-testing-spaces{
+  width: 200px;
+  background-color: crimson;
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px;
+
+}
