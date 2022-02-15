@@ -1,41 +1,53 @@
 <!DOCTYPE html>
 <html lang="es">
-<html>
-  <body>
-    <h2>CatPhotoApp</h2>
-    <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack 
-      your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
-    <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip 
-      the couch sleep in the sink fluffy fur catnip scratched.</p>
-    <main>
-      <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack 
-        your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
-      <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip 
-        the couch sleep in the sink fluffy fur catnip scratched.View more cat photos</p>
-      <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
-      <p>Top 3 things cats hate:</p>
-      <ol>
-        <li>Other Cats</li>
-        <li>Bath</li>
-        <li>thunders</li>
-      </ol> 
-      <p>Things cats love:</p>
-      <ul>
-        <li>Lasagna</li>
-        <li>Sleep</li>
-        <li>milk</li>
-      </ul>
-      <form action="https://www.freecatphotoapp.com/submit-cat-photo">
-        <input type="text" placeholder="cat photo URL" required>
-        <button type="submit">Submit</button>
-        <label for="indoor"><input id="indoor" value="indoor" type="radio" name="indoor-outdoor">Indoor</label>
-        <label for="outdoor"><input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor">Outdoor</label>
+  <html>
+    <style>
+      h2{
+        color: red;
+      }
+    </style>
+    <body>
+      <h2 >CatPhotoApp</h2>
+      <main>
+        <p>Click here to view more <a href="#">cat photos</a>.</p>
 
-        <label for="loving"><input id="loving" value="loving" type="checkbox" name="personality">loving</label>
-        <label for="lazy"><input id="lazy" value="lazy" type="checkbox" name="personality">lazy</label>
-        <label for="energetic"><input id="energetic" value="energetic" type="checkbox" name="personality">energetic</label>
-      </form>
-    </main>
-    <footer id="footer">Copyright Cat Photo App</footer>
-  </body>
+        <a href="#"
+          ><img
+            src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+            alt="A cute orange cat lying on its back."
+        /></a>
+
+        <div>
+          <p>Things cats love:</p>
+          <ul>
+            <li>cat nip</li>
+            <li>laser pointers</li>
+            <li>lasagna</li>
+          </ul>
+          <p>Top 3 things cats hate:</p>
+          <ol>
+            <li>flea treatment</li>
+            <li>thunder</li>
+            <li>other cats</li>
+          </ol>
+        </div>
+
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <label
+            ><input type="radio" name="indoor-outdoor" checked /> Indoor</label
+          >
+          <label><input type="radio" name="indoor-outdoor" /> Outdoor</label
+          ><br />
+          <label
+            ><input type="checkbox" name="personality" checked /> Loving</label
+          >
+          <label><input type="checkbox" name="personality" /> Lazy</label>
+          <label><input type="checkbox" name="personality" /> Energetic</label
+          ><br />
+          <input type="text" placeholder="cat photo URL" required />
+          <button type="submit">Submit</button>
+        </form>
+      </main>
+    </body>
+  </html>
 </html>
