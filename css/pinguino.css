@@ -1,14 +1,14 @@
 .pinguino {
-    --pinguino-barriga: gray;
-    --pinguino-pico: yellow;
-    position: relative;
-    margin: auto;
-    display: block;
-    margin-top: 5%;
-    width: 300px;
-    height: 300px;
-  }
-  
+  --pinguino-barriga: gray;
+  --pinguino-pico: yellow;
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 5%;
+  width: 300px;
+  height: 300px;
+}
+
 .pinguino-superior {
   top: 10%;
   left: 25%;
@@ -162,7 +162,7 @@
 }
 
 body {
-  background:#c6faf1;
+  background: #c6faf1;
 }
 
 .pinguino * {

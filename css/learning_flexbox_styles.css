@@ -1,0 +1,22 @@
+body{
+    background-color: #e9e9e9;
+}
+.continer{
+    width: 500px;
+    height: 200px;
+    background-color: #fff;
+    padding: 10px;
+    border: 10px solid #2c3e50;
+    margin: 20px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.element{
+    color:#fff;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: #e67e22;
+    text-align: center;
+}
